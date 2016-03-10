@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Green Mapping Workshop</title>
+
+		<meta name="description" content="Presentation for March 12, 2016 green mapping workshop">
+		<meta name="author" content="Dawn Walker">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white-modified.css" id="theme">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h2>Green Mapping Workshop</h2>
+					<h3> </h3>
+					<p>
+						<small>March 12, 2016 | <a href="https://torontogreenmap.github.io">torontogreenmap.github.io</a><br /></small>
+					</p>
+				</section>
+
+				<section style="text-align: left;">
+					<h2>Hiya!</h2>
+					<p>My name is <a href="http://dcwalker.ca" target="_blank">Dawn Walker</a><br />I am a Information System Design grad student in the <br />Faculty of Information, University of Toronto.</p>
+					<p>This workshop is part of a design research project exploring how to <em>design online community maps</em> to support discovery of urban agriculture and sustainability initiatives.</p>
+				</section>
+
+				<section>
+					<h2>Workshop Plan</h2>
+					<p style="text-align: left;">
+						In 3 hours we will:
+						<ul style="text-align: left;">
+							<li>learn about online mapping projects</li>
+							<li>look at, and test, existing mapping tools</li>
+							<li>prototype maps and put them online!</li>
+						</ul>
+					</p>
+				</section>
+
+				<section>
+					<h2>What is a &lsquo;Green Map&rsquo;?</h2>
+					<div class="fragment">
+						<p style="text-align: left;">According to <a href="http://www.greenmap.org/greenhouse/en/about" target="_blank">Green Map Systems</a>, green maps are:</p>
+						<blockquote cite="http://www.greenmap.org/greenhouse/en/about">
+							&ldquo;locally created environmentally-themed maps...plot[ting] the locations of a community's natural, cultural and sustainable resources&rdquo;
+						</blockquote>
+					</div>
+					<div class="fragment">
+						<p style="text-align: left;"> <a href="http://transformap.co/about/" target="_blank">TransforMap</a> sees green maps as highlighting:</p>
+						<blockquote cite="http://transformap.co/about/">
+							&ldquo;the initiatives, communities, projects... dedicated to... serving the common good and/ or contributing to a sustainable way of life&rdquo;
+						</blockquote>
+					</div>
+				</section>
+
+				<!-- Project Examples -->
+				<section>
+					<section data-background-color="#ffffff">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Some (Online) Examples!</h2>
+						</div>
+					</section>
+					<section data-background="img/ex_open-green-map_20160308.png" data-background-size="100%">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Open Green Map&nbsp;&nbsp;<a href="https://www.opengreenmap.org/home" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+						</div>
+					</section>
+					<section data-background="img/ex_nyc-street-trees_20160308.png" data-background-size="100%">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">NYC Street Trees&nbsp;&nbsp;<a href="http://jillhubley.com/project/nyctrees/" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+						</div>
+					</section>
+					<section data-background="img/ex_tcgn-gardens_20160308.png" data-background-size="100%">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Toronto Community Garden Network (TCGN) Gardens&nbsp;&nbsp;<a href="http://tcgn.ca/gardens/" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+						</div>
+					</section>
+				</section>
+
+				<section data-background="img/screen_web-mapping_20160308.png">
+					<div class="secondary">
+						<h2 style="padding: 20px; color: #ffffff;">What about web maps?&nbsp;&nbsp;<a href="http://maptime.io/anatomy-of-a-web-map/" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+					</div>
+					<div class="fragment">
+						<blockquote style="background: rgba(255, 255, 255, 0.85);" cite="http://maptime.io/anatomy-of-a-web-map/">
+							a web map is a kind of <strong>digital map</strong>... made with a computer and <strong>available on the internet</strong>, that you can view in a browser
+						</blockquote>
+					</div>
+				</section>
+
+				<section>
+					<h2>Types (or Features)</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>static</th>
+								<th style="font-weight:normal;">versus</th>
+								<th>dynamic</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class ="fragment">
+								<td><em>view only</em></td>
+								<td></td>
+								<td><em>interactive,<br />realtime,<br />animated</em></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<section>
+						<h2>Parts</h2>
+						<p style="text-align: left;">
+							There are a lot! <br /> We'll focus on three key parts:
+							<ul style="text-align: left;">
+								<li>tiles</li>
+								<li>(zoom) levels</li>
+								<li>layers</li>
+							</ul>
+						</p>
+					</section>
+					<section data-background="img/tiles-loading_animation.gif" data-background-size="100%" data-background-color="#ebe7da">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Tiles</h2>
+						</div>
+					</section>
+					<section data-background="img/zoom-levels_animation.gif" data-background-size="100%" data-background-color="#ebe7da">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Zoom Levels</h2>
+						</div>
+						<img class="fragment" src="http://c.tile.thunderforest.com/transport/15/9156/11957.png" />
+						<img class="fragment" src="http://c.tile.thunderforest.com/transport/16/18313/23914.png" />
+						<img class="fragment" src="http://a.tile.thunderforest.com/transport/17/36627/47829.png" />
+					</section>
+					<section data-background="img/layers_animation.gif" data-background-size="100%" data-background-color="#ebe7da">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Layers</h2>
+						</div>
+					</section>
+					<section data-background="img/layers_animation.gif" data-background-size="100%" data-background-color="#ebe7da">
+					</section>
+				</section>
+
+				<section>
+					<h2>How do you make a Web Map?</h2>
+					<p style="text-align: left;">
+						There are lots of <strong>tools</strong>! (overwhelming)
+					</p>
+					<p style="text-align: left;" class="fragment">Some help you do <em>everything</em> and others only help with <em>one small piece</em>, most could be considered <strong>Geographic Information Systems</strong> (GIS)
+					</p>
+						<blockquote class="fragment" style="background: rgba(255, 255, 255, 0.85);" cite="https://en.wikipedia.org/wiki/Geographic_information_system">
+							&ldquo;designed to <strong>capture, store, manipulate</strong>, analyze, manage, and present all types of spatial or geographical data&rdquo;
+						</blockquote>
+					<p style="text-align: left;" class="fragment">A note on cost: most of these tools are free <em>up to a point</em>
+					</p>
+				</section>
+
+				<!--  -->
+				<section>
+					<section data-background-color="#ffffff">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Some GIS Tools</h2>
+						</div>
+					</section>
+					<section data-background="img/screen_mapbox_20160308.png" data-background-size="100%">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Mapbox&nbsp;&nbsp;<a href="https://www.mapbox.com/" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+						</div>
+					</section>
+					<section data-background="img/screen_cartodb_20160308.png" data-background-size="100%">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">CartoDB&nbsp;&nbsp;<a href="https://cartodb.com/" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+						</div>
+					</section>
+					<section data-background="img/screen_arcGIS_20160308.png" data-background-size="100%">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">ArcGIS&nbsp;&nbsp;<a href="https://www.arcgis.com/features/features.html" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+						</div>
+					</section>
+					<section data-background="img/screen_google-api_20160308.png" data-background-size="100%">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Google Maps and...&nbsp;&nbsp;<a href="https://developers.google.com/maps/web/" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+						</div>
+					</section>
+					<section data-background="img/screen_leafletjs_20160308.png" data-background-size="100%">
+						<div class="secondary">
+							<h2 style="padding: 20px; color: #ffffff;">Leaflet.js&nbsp;&nbsp;<a href="http://leafletjs.com/" target="_blank"><i class="fa fa-external-link-square"></i></a></h2>
+						</div>
+					</section>
+				</section>
+
+				<section style="text-align: left;" data-background="#f6ff7e">
+					<h3>Activity: Green Map Website Walkthrough</h3>
+					<p>
+
+					</p>
+				</section>
+
+				<section style="text-align: left;" data-background="#f6ff7e">
+					<h3>Activity: Prototyping a Map</h3>
+					<p>
+
+					</p>
+				</section>
+
+				<section style="text-align: left;" data-background="#f6ff7e">
+					<h3>Activity: Making a Web Map</h3>
+					<p>
+
+					</p>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>Keep in touch!</h1>
+					<p>Find me at <a href="http://dcwalker.ca" target="_blank">dcwalker.ca&nbsp;<i class="fa fa-link"></i></a> (not much there), <br /><a href="https://twitter.com/dcwalk_" target="_blank">@dcwalk_ on twitter&nbsp;<i class="fa fa-twitter"></i></a> (bad at tweeting), or <br /> <a href="https://github.com/dcwalk" target="_blank">@dcwalk on github&nbsp;<i class="fa fa-github"></i></a> (still learning)!
+					</p>
+					<small><a href="https://torontogreenmap.github.io">torontogreenmap.github.io</a><br />
+					workshop materials: <a href="https://github.com/torontogreenmap/workshop-greenmapping">github.com/torontogreenmap/workshop-greenmapping</a>
+					</small>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,0 +1,19 @@
+# OS X
+.DS_Store
+
+# reveal.js
+node_modules/
+.sass-cache
+css/reveal.min.css
+js/reveal.min.js
+
+# Jekyll build
+/_site/
+.jekyll-metadata
+Gemfile.lock
+
+# webstorm
+.idea/
+
+# others
+*.swp
