@@ -19,6 +19,6 @@
 - [CartoDB](https://cartodb.com/)
 - [Google Developers: Map](https://developers.google.com/maps/web/)
 
-## Mapping Tools (Libraries or )
+## Mapping Tools (Libraries)
 - [Leaflet](http://leafletjs.com/) __Open Source__
 - [OpenLayers](http://openlayers.org/) __Open Source__
