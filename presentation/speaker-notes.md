@@ -107,41 +107,36 @@ In terms of mapping, and green mapping in particular, almost always, the content
 
 # Slide 8: Making a Web Map
 There are lots of tools! (overwhelming)
-Some help you do everything and others only help with one small piece.
+Some help you do everything and others only help with one small piece most could be considered Geographic Information Systems
 
+I went straight to wikipedia for this one:
+*GIS are “designed to capture, store, manipulate, analyze, manage, and present all types of spatial or geographical data”*
 
-
+# Slide 9: Tool Examples
 Given the amount of time we have and that this is an intro workshop I'm going to focus on the everything tools, but in the resources page I have links out to a lot more!
 
+I'm going through this quick because we will get to dig into some of these in a later activity:
+- MapBox
+- CartoDB
+- ArcGIS
+- Google Developer Maps... this is kind of an odd one, you can do a lot with Google Maps and the Google Developers support to achieve the same as the above tools
+- Just one shout out to a single-purpose tool: leaflet.js
 
-
-
-
-
-https://www.mapbox.com/
-https://www.arcgis.com/features/features.html
-https://cartodb.com/
-https://developers.google.com/maps/web/
-http://leafletjs.com/
-http://openlayers.org/
-
-
-
-# Slide 8: Green Map Website Walkthrough
+# Slide 10: Green Map Website Walkthrough
 __0:40__
 Pair Walkthrough of a green map
 5 pre-selected projects ‘worksheet’
 Shareback of what worked/what didn’t
 
 
-    Web mapping, GIS data collection platforms
-    Green features
-    Identifying Projects
-    5 pre-selected projects
-
-
-# Slide 10: Prototyping a Map
-__0:40__
+# Slide 11: Prototyping a Map
+__1:10__
 Pair Walkthrough of a green map
 5 pre-selected projects ‘worksheet’
 Shareback of what worked/what didn’t
+
+# Slide 12: Making a Web Map
+__2:00__
+
+# Slide 13: Byes
+__2:50__
