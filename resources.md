@@ -18,7 +18,7 @@
 - [ArcGIS](https://www.arcgis.com/features/features.html)
 - [CartoDB](https://cartodb.com/)
 - [Google Developers: Map](https://developers.google.com/maps/web/)
-- [Leaflet](http://leafletjs.com/) __Open Source__
-- [OpenLayers](http://openlayers.org/) __Open Source__
 
 ## Mapping Tools (Libraries or )
+- [Leaflet](http://leafletjs.com/) __Open Source__
+- [OpenLayers](http://openlayers.org/) __Open Source__
