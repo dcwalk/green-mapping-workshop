@@ -17,4 +17,4 @@ All <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Toronto Gre
 ### Credits
 This project is built upon—or includes—ideas and work from the following people:
 * presentation framework from Hakim El Hattab's [reveal.js](http://lab.hakim.se/reveal-js/#/)
-* icons from [The Noun Project](https://thenounproject.com)
+* icons from [Font Awesome](http://fortawesome.github.io/)

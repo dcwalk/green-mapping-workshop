@@ -13,12 +13,18 @@
 - [Bing Maps](https://www.bing.com/mapspreview)
 - [Mapquest](https://www.mapquest.com/)
 
-## Mapping Tools (GIS)
+## Mapping Tools
+- [Field Papers](http://fieldpapers.org/) for making paper maps to bring into the field
+
+### GIS
 - [Map Box](https://www.mapbox.com/)
 - [ArcGIS](https://www.arcgis.com/features/features.html)
 - [CartoDB](https://cartodb.com/)
 - [Google Developers: Map](https://developers.google.com/maps/web/)
 
-## Mapping Tools (Libraries)
+### Libraries
 - [Leaflet](http://leafletjs.com/) __Open Source__
 - [OpenLayers](http://openlayers.org/) __Open Source__
+
+### Interesting Projects and People
+- [3Cs: Counter-Cartographies Collective](http://www.countercartographies.org/)
