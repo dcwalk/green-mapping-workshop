@@ -3,9 +3,11 @@ Workshop Materials for Green Mapping Workshop held 2016-03-12
 
 ### Repository Stucture
 The repository is structured as follows:
-* [`handouts/ `](https://github.com/torontogreenmap/workshop-greenmapping/tree/master/handouts) contains all materials that need (or could be) printed for the day. Copies of a Google Doc are available below:
+* [`handouts/ `](https://github.com/torontogreenmap/workshop-greenmapping/tree/master/handouts) contains all materials that need (or could be) printed for the day. Google Doc versions are available below:
   - [Activity Sheet: Green Map Website Walkthrough](https://docs.google.com/document/d/1Sz7LmFMXJHDQ4zOyTctNVGcwlyHNBSKhMJtx75A33yE/edit#)
-* []`presentation/ `](https://github.com/torontogreenmap/workshop-greenmapping/tree/master/presentation) contains a **DRAFT** presentation for the workshop
+  - [Activity Sheet: Prototyping a Green Map](https://docs.google.com/document/d/16UbPakS_PGBHcInyl_Cm7ziBA8jb_v3j_Qr5TcQhR2Y/edit#)
+  - [Activity Sheet: Making A Web Map](https://docs.google.com/document/d/1N_5r_KSzYToIWksaL2Ea1oVI-rWjlrv0BWxnrt2wMbA/edit#)
+* [`presentation/ `](https://github.com/torontogreenmap/workshop-greenmapping/tree/master/presentation) contains a **DRAFT** presentation for the workshop
 * [`resources.md `](https://github.com/torontogreenmap/workshop-greenmapping/blob/master/resources.md) is a list of web mapping and green map resources
 
 ### Contact

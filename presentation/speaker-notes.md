@@ -124,19 +124,35 @@ I'm going through this quick because we will get to dig into some of these in a 
 
 # Slide 10: Green Map Website Walkthrough
 __0:40__
-Pair Walkthrough of a green map
-5 pre-selected projects ‘worksheet’
-Shareback of what worked/what didn’t
+
+*Materials*: Activity Sheet, Post its, Pens, Paper, Laptops
+*Time*: 20 minutes
+*Instructions*:
+- __05mins__ Break into pairs and introduction
+- __15mins__ Pair Walkthrough of a green map
+- __10mins__ Shareback of what worked/what didn’t
 
 
 # Slide 11: Prototyping a Map
 __1:10__
-Pair Walkthrough of a green map
-5 pre-selected projects ‘worksheet’
-Shareback of what worked/what didn’t
+
+*Materials*: Activity Sheet, Pens, Paper, Maps (x3), Stickers
+*Time*: 40 minutes
+*Instructions*:
+- __15mins__ Break into groups of 3-4 and introduction
+- __25mins__ Mapping Walkabout!
+- __10mins__ Shareback of maps, what worked/what didn’t
 
 # Slide 12: Making a Web Map
 __2:00__
+*Materials*: Activity Sheet, Laptops
+*Time*: 50 minutes
+*Instructions*:
+- __15mins__ Introduction
+- __25mins__ Making a Web Map
+
+- __20mins__ Shareback of tools, what worked/what didn’t
+
 
 # Slide 13: Byes
 __2:50__
