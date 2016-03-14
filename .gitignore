@@ -17,3 +17,7 @@ Gemfile.lock
 
 # others
 *.swp
+
+# PDFs for Workshop
+handouts/robarts*
+handouts/bissell*
