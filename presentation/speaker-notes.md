@@ -5,7 +5,7 @@ Hi everyone, thank you for coming today! I'm really looking forward to this afte
 
 My area of study is Information System Design, and this workshop is part of my research design project on how to design online community maps to support discovery of urban agriculture and sustainability initiatives.
 
-Given that this workshop is being held as part of my research I have to cover a few quick details, you all should have a letter which outlines my obligations to you as a participant in the study:
+Given that this workshop is being held as part of my research I have to cover a few quick details on my obligations to you as a participant in my research:
 + In any reports created individuals will remain anonymous unless you give me explicit permission.
 + Participation is entirely voluntary and at any time you can stop and ask to have your information removed.
 + There is no compensation for participation in this project.
@@ -131,7 +131,6 @@ __0:40__
 - __05mins__ Break into pairs and introduction
 - __15mins__ Pair Walkthrough of a green map
 - __10mins__ Shareback of what worked/what didn’t
-
 
 # Slide 11: Prototyping a Map
 __1:10__

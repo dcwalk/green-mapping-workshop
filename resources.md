@@ -3,6 +3,10 @@
 - [OpenStreetMap meetup](http://www.meetup.com/OpenStreetMap-Toronto/)
 - [maptime.io group](http://maptime.io/toronto/)
 
+## Interesting Projects and People
+- [3Cs: Counter-Cartographies Collective](http://www.countercartographies.org/)
+- [An Atlas of Radical Cartography](http://www.an-atlas.com/)
+
 ## Online Presentations & Videos
 - [Anatomy of a Web Map](http://maptime.io/anatomy-of-a-web-map/)
 - [Maptime.io--Lessons and Resources](http://maptime.io/lessons-resources/)
@@ -26,5 +30,7 @@
 - [Leaflet](http://leafletjs.com/) __Open Source__
 - [OpenLayers](http://openlayers.org/) __Open Source__
 
-### Interesting Projects and People
-- [3Cs: Counter-Cartographies Collective](http://www.countercartographies.org/)
+### Data
+- [ogr2ogr and gdal](http://www.gdal.org/ogr2ogr.html) a library and command line tool to transform data
+- [ogre](https://ogre.adc4gis.com/) a web service that translates spatial files into `.geojson`
+- [mapsdata](http://www.mapsdata.co.uk/online-file-converter/#kml-instructions) online file converters from many popular formats including `.kml`, `.csv` and shapefiles (`.zip`)
